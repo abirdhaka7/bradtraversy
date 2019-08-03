@@ -1,0 +1,117 @@
+/*
+Theme Name: Simpledx
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: Abir Hasan Himel
+Author URI: https://wordpress.org/
+Description: Very simple wordpress theme.
+Version: 1.0
+Text Domain: simple
+
+*/
+body{
+    background: #f4f4f4;
+    color: #333;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;padding: 0;
+    line-height: 1.7em;
+}
+a{
+    color: #333;
+}
+header{
+    background: #393939;
+    color: #fff;
+    padding: 20px 10px;
+}
+header h1{
+    margin: 0;padding: 0;
+    color: #ffff;
+    padding-bottom: 10px;
+}
+.container{
+    width: 1020px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.clr{
+    clear: both;
+}
+.main{
+    float: left;
+    width: 68%;
+    margin: 15px 0;
+}
+.sidebar{
+    float: right;
+    width: 28%;
+}
+footer{
+    background: #393939;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+}
+article.post{
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+article.post a.button{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.meta{
+    background: #333;
+    color: #fff;
+    padding:5px;
+}
+.meta a{
+    color: #f4f4f4;
+}
+.post-thumbnail img{
+
+    width: 100%;
+    height: auto;
+}
+
+.main-nav{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+}
+.main-nav li{
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-widget{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+.side-widget li{
+    list-style: none;
+    line-height: 2.2em;
+    border-bottom: dotted 1px #ccc;
+}
+.side-widget ul{
+    padding-inline-start: 0;
+}
+.side-widget a{
+    text-decoration: none;
+}
